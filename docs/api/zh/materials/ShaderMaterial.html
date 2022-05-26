@@ -290,7 +290,7 @@ this.extensions = {
 
 
 		<h3>[property:Boolean fog]</h3>
-		<p> 定义材质颜色是否受全局雾设置的影响; 如果将fog uniforms传递给shader，则为true。默认值为false。
+		<p> 定义材质颜色是否受全局雾设置的影响; 为true时会将fog uniforms传递给shader。默认值为false。
 		</p>
 
 
@@ -319,7 +319,7 @@ this.extensions = {
 		</p>
 
 		<h3>[property:Boolean lights]</h3>
-		<p> 材质是否受到光照的影响。默认值为 *false*。如果传递与光照相关的uniform数据到这个材质，则为true。默认是false。
+		<p> 定义材质是否会受到光照的影响；为true时会将与光照相关的uniform数据传递给shader。默认值为 *false*。
 		</p>
 
 		<h3>[property:Float linewidth]</h3>
